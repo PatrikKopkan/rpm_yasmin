@@ -1,7 +1,7 @@
 %global srcname yaspin
 Name:		python-yaspin		
 Version:	0.14.0
-Release:	2%{?dist}
+Release:	3%{?dist}
 License:	MIT
 URL:		https://pypi.org/project/yaspin
 Source0:	https://github.com/pavdmyt/yaspin/archive/v%{version}.tar.gz
@@ -18,7 +18,6 @@ Yaspin provides a full-featured terminal spinner to show the progress during lon
 Summary:	PyPi library for terminal spinners
 BuildRequires:	python3-devel
 BuildRequires:	python3-pytest
-Requires:	python3
 %{?python_provide:%python_provide python3-%{srcname}}
 
 %description -n python3-%{srcname}
@@ -32,7 +31,7 @@ Yaspin provides a full-featured terminal spinner to show the progress during lon
 %build
 %py3_build
 
-$install
+%install
 %py3_install
 
 %check
@@ -48,6 +47,10 @@ $install
 
 
 %changelog
+* Thu Jan 10 2019 Patrik Kopkan <pkopkan@redhat.com> - 0.14.0-3
+- fixed typo
+- deleted Requires
+
 * Wed Jan 9 2019 Patrik Kopkan <pkopkan@redhat.com> - 0.14.0-2
 - added BuildRequires
 
