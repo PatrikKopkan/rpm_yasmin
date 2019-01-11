@@ -1,1 +1,1 @@
-# rpm_yasmin
+# rpm_yaspin
