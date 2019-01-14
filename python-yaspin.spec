@@ -10,7 +10,7 @@ Summary:        Python library for terminal spinners
 %description
 Yet Another Terminal Spinner for Python.
 
-Yaspin provides a full-featured terminal spinner to show the progress 
+Yaspin provides a full-featured terminal spinner to show the progress
 during long-hanging operations.
 
 %package -n python3-%{srcname}
