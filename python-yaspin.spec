@@ -14,7 +14,7 @@ Yaspin provides a full-featured terminal spinner to show the progress
 during long-hanging operations.
 
 %package -n python3-%{srcname}
-Summary:        %[summary]
+Summary:        %{summary}
 BuildRequires:  python3-devel
 BuildRequires:  python3-setuptools
 BuildRequires:  python3-pytest
@@ -48,6 +48,9 @@ during long-hanging operations.
 
 
 %changelog
+* Mon Jan 14 2019 Patrik Kopkan <pkopkan@redhat.com> - 0.14.0.4
+- fixed typo
+
 * Fri Jan 11 2019 Patrik Kopkan <pkopkan@redhat.com> - 0.14.0-4
 - added BuildRequires
 - changed tabs to spaces
