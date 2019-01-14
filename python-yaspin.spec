@@ -23,7 +23,7 @@ BuildRequires:  python3-pytest
 %description -n python3-%{srcname}
 Yet Another Terminal Spinner for Python.
 
-Yaspin provides a full-featured terminal spinner to show the progress 
+Yaspin provides a full-featured terminal spinner to show the progress
 during long-hanging operations.
 
 %prep
